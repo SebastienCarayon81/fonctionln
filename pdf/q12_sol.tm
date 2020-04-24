@@ -39,11 +39,8 @@
   <underline|EXERCICE 2>
 
   <\ornamented>
-    1) Résoudre dans <math|\<bbb-R\>> l'inéquation :
-
-    <\equation*>
-      1+4x-4x<rsup|2>\<gtr\>0
-    </equation*>
+    1) Justifier que <math|1+4x-4x<rsup|2>> est strictement positif si et
+    seulement si <math|x\<in\><around*|]|<frac|1-<sqrt|2>|2>;<frac|1+<sqrt|2>|2>|[>>
 
     2) En déduire l'ensemble de définition de la fonction <math|h> définie
     par
@@ -61,26 +58,34 @@
 
   son discriminant <math|\<Delta\>=<around*|(|4|)><rsup|2>-4*\<times\><around*|(|-4|)>\<times\><around*|(|1|)>=16+16=32>
 
-  ce discriminant est positif donc le trinôme <math|1+4x-2x<rsup|2>> a deux
+  ce discriminant est positif donc le trinôme <math|1+4x-4x<rsup|2>> a deux
   racines:
-
-  <math|x<rsub|1>=<frac|-4-<sqrt|32>|2*\<times\><around*|(|-2|)>>=<frac|-4-<sqrt|16\<times\>2>|-4>=<frac|-4-4<sqrt|2>|-4>=1+<sqrt|2>\<thickapprox\>2.41>
-
-  et\ 
-
-  <math|x<rsub|2>=<frac|-4+<sqrt|24>|2\<times\><around*|(|-2|)>>=<frac|-4+4<sqrt|2>|-4>=1-<sqrt|2>\<approx\>-0.41>
 
   \;
 
-  Comme le coefficient de <math|x<rsup|2>> est négatif dans le trinôme
-  (parabole tournée vers le bas), on en déduit que <math|1+4x-4x<rsup|2>> est
-  strictement positif lorsque <math|x\<in\><around*|]|1-<sqrt|2>;1+<sqrt|2>|[>>
+  <math|x<rsub|1>=<frac|-4-<sqrt|32>|2*\<times\><around*|(|-4|)>>=<frac|-4-<sqrt|16\<times\>2>|-8>=<frac|-4-4<sqrt|2>|-8>=<frac|1+<sqrt|2>|2>\<thickapprox\>1.2>
+
+  et\ 
+
+  <math|x<rsub|2>=<frac|-4+<sqrt|24>|2\<times\><around*|(|-8|)>>=<frac|-4+4<sqrt|2>|-8>=<frac|1-<sqrt|2>|2>\<approx\>-0.2>
+
+  <with|font-shape|italic|(notez les simplifications de racine et de signes)>
+
+  \;
+
+  Comme le coefficient de <math|x<rsup|2>> est négatif dans le trinôme (il
+  vaut -4)
+
+  (parabole tournée vers le bas),\ 
+
+  on en déduit que <math|1+4x-4x<rsup|2>> est strictement positif lorsque
+  <math|x\<in\><around*|]|1-<sqrt|2>;1+<sqrt|2>|[>>
 
   \;
 
   2)
 
-  - Pour calculer <math|ln<around*|(|1+4x-2x<rsup|2>|)>> il faut que
+  - Pour calculer <math|ln<around*|(|1+4x-4x<rsup|2>|)>> il faut que
   <math|1+4x-2<rsup|2>> \<gtr\> 0
 
   <math|1+4x-4x<rsup|2>> est strictement positif lorsque <math|x> est entre

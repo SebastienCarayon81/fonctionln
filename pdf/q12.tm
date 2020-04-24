@@ -21,11 +21,8 @@
   <\ornamented>
     \;
 
-    1) Résoudre dans <math|\<bbb-R\>> l'inéquation :
-
-    <\equation*>
-      1+4x-4x<rsup|2>\<gtr\>0
-    </equation*>
+    1) Justifier que <math|1+4x-4x<rsup|2>> est strictement positif si et
+    seulement si <math|x\<in\><around*|]|<frac|1-<sqrt|2>|2>;<frac|1+<sqrt|2>|2>|[>>
 
     2) En déduire l'ensemble de définition de la fonction <math|h> définie
     par
